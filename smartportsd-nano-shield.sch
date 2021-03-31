@@ -21,6 +21,7 @@ F 0 "MOD1" H 7774 4446 50  0000 L CNN
 F 1 "CARD-SD-ADAPTER-CATALEX" H 7774 4355 50  0000 L CNN
 F 2 "CARD-SD-ADAPTER-CATALEX:Catalex-MicroSD-Card-Down" H 6950 4350 50  0001 L BNN
 F 3 "" H 6950 4350 50  0001 L BNN
+F 4 "From eBay/Aliexpress" H 6950 4350 50  0001 C CNN "Comment"
 	1    6950 4350
 	1    0    0    -1  
 $EndComp
@@ -43,6 +44,7 @@ F 0 "D5" H 4393 4845 50  0000 C CNN
 F 1 "STATUS" H 4393 4936 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4400 5100 50  0001 C CNN
 F 3 "~" H 4400 5100 50  0001 C CNN
+F 4 "Red" H 4400 5100 50  0001 C CNN "Comment"
 	1    4400 5100
 	-1   0    0    1   
 $EndComp
@@ -65,6 +67,7 @@ F 0 "R6" V 4493 5100 50  0000 C CNN
 F 1 "470R" V 4584 5100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 5100 50  0001 C CNN
 F 3 "~" H 4700 5100 50  0001 C CNN
+F 4 "For status LED" H 4700 5100 50  0001 C CNN "Comment"
 	1    4700 5100
 	0    1    1    0   
 $EndComp
@@ -302,6 +305,7 @@ F 0 "D1" H 4393 3395 50  0000 C CNN
 F 1 "PART1" H 4393 3486 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4400 3650 50  0001 C CNN
 F 3 "~" H 4400 3650 50  0001 C CNN
+F 4 "Green" H 4400 3650 50  0001 C CNN "Comment"
 	1    4400 3650
 	-1   0    0    1   
 $EndComp
@@ -313,6 +317,7 @@ F 0 "R2" V 4493 3650 50  0000 C CNN
 F 1 "470R" V 4584 3650 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 3650 50  0001 C CNN
 F 3 "~" H 4700 3650 50  0001 C CNN
+F 4 "For active partition LED's" H 4700 3650 50  0001 C CNN "Comment"
 	1    4700 3650
 	0    1    1    0   
 $EndComp
@@ -335,6 +340,7 @@ F 0 "D2" H 4393 3745 50  0000 C CNN
 F 1 "PART2" H 4393 3836 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4400 4000 50  0001 C CNN
 F 3 "~" H 4400 4000 50  0001 C CNN
+F 4 "Green" H 4400 4000 50  0001 C CNN "Comment"
 	1    4400 4000
 	-1   0    0    1   
 $EndComp
@@ -346,6 +352,7 @@ F 0 "R3" V 4493 4000 50  0000 C CNN
 F 1 "470R" V 4584 4000 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 4000 50  0001 C CNN
 F 3 "~" H 4700 4000 50  0001 C CNN
+F 4 "For active partition LED's" H 4700 4000 50  0001 C CNN "Comment"
 	1    4700 4000
 	0    1    1    0   
 $EndComp
@@ -368,6 +375,7 @@ F 0 "D3" H 4393 4095 50  0000 C CNN
 F 1 "PART3" H 4393 4186 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4400 4350 50  0001 C CNN
 F 3 "~" H 4400 4350 50  0001 C CNN
+F 4 "Green" H 4400 4350 50  0001 C CNN "Comment"
 	1    4400 4350
 	-1   0    0    1   
 $EndComp
@@ -379,6 +387,7 @@ F 0 "R4" V 4493 4350 50  0000 C CNN
 F 1 "470R" V 4584 4350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 4350 50  0001 C CNN
 F 3 "~" H 4700 4350 50  0001 C CNN
+F 4 "For active partition LED's" H 4700 4350 50  0001 C CNN "Comment"
 	1    4700 4350
 	0    1    1    0   
 $EndComp
@@ -401,6 +410,7 @@ F 0 "D4" H 4393 4445 50  0000 C CNN
 F 1 "PART4" H 4393 4536 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4400 4700 50  0001 C CNN
 F 3 "~" H 4400 4700 50  0001 C CNN
+F 4 "Green" H 4400 4700 50  0001 C CNN "Comment"
 	1    4400 4700
 	-1   0    0    1   
 $EndComp
@@ -412,6 +422,7 @@ F 0 "R5" V 4493 4700 50  0000 C CNN
 F 1 "470R" V 4584 4700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4630 4700 50  0001 C CNN
 F 3 "~" H 4700 4700 50  0001 C CNN
+F 4 "For active partition LED's" H 4700 4700 50  0001 C CNN "Comment"
 	1    4700 4700
 	0    1    1    0   
 $EndComp
@@ -450,6 +461,7 @@ F 0 "C1" H 7465 2796 50  0000 L CNN
 F 1 "22uf 6.3v" H 7465 2705 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 7350 2750 50  0001 C CNN
 F 3 "~" H 7350 2750 50  0001 C CNN
+F 4 "Optional, 5V bulk for board" H 7350 2750 50  0001 C CNN "Comment"
 	1    7350 2750
 	1    0    0    -1  
 $EndComp
