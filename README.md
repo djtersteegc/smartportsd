@@ -19,7 +19,9 @@ If you wish to power your board from the 5V SmartPort line, simply install and c
 
 # Getting a Board
 
-If I have extra PCB's, they will be listed on Tindie (soon...).
+If I have extra PCB's, they will be listed on Tindie.
+
+https://www.tindie.com/products/tersteeg/smartportsd-apple-ii-pcb/
 
 Otherwise you can download the Gerbers and use your favorite fab (JLCPCB, PCBWay, etc.) to make your own batch.  It's a standard two layer, 1oz copper board with dimensions of 70mm x 56mm.
 
