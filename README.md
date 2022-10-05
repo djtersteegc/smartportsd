@@ -17,6 +17,10 @@ An interactive BOM and parts placement diagram is also available.
 
 If you wish to power your board from the 5V SmartPort line, simply install and close jumper JP1.  Be warned there is no protection on the board from back feeding voltage into the Apple host computer if you also power the Arduino via the USB connector, so only close this jumper when not using another power source on the Arduino.
 
+STL's and the [DesignSpark Mechanical](https://www.rs-online.com/designspark/mechanical-software) source file for an simple snap fit enclosure are in the **enclosure** directory. Clearances are intentionally a bit tight so nothing rattles, but it prints well on a standard Ender 3 type printer without any post processing needed.
+
+<img src="docs/enclosure.jpg" alt="enclosure" style="zoom: 25%;" /> 
+
 # Getting a Board
 
 If I have extra PCB's, they will be listed on Tindie.
