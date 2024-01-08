@@ -18,7 +18,7 @@ Make sure it's a 16Mhz ATMEGA328P board running at 5V.
 
 This is the common push-push [Micro SD module](https://www.aliexpress.com/item/1873549637.html) with level shifters.  Sometimes it may say "Catalex" (maybe the original designer?) on the back of the PCB.  You will need to remove the pre-soldered right-angle header they all seem to come with so you can mount it upside down on the shield board.
 
-![image-20210305180028998](E:/Vintage Computers/Apple II/smartportsd/docs/micro-sd-front.png)
+![image-20210305180028998](../docs/micro-sd-front.png)
 
 ### Bulk Capacitor
 
