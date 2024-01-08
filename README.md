@@ -8,13 +8,13 @@ A couple PCB's I've designed to run the SmartportSD FAT code from Katherine Star
 
 This is my original design.  Works best with a Duo Disk cable, but has a header to wire up a custom cable if needed.  All through hold modules, super easy build. I added some additional LED's to indicate which of the four ProDOS partitions is currently loaded.
 
-See the [Nano Shield page](smartport-nano-shield/README.md) for BOM and assembly instructions.
+See the [Nano Shield page](smartportsd-nano-shield/README.md) for BOM and assembly instructions.
 
 # SmartportSD SMD
 
 ![smd-parts](docs/smd-parts.jpg)
 
-This one is a bit more of an advanced build and is based of my [Tapecart SD](https://github.com/djtersteegc/tapecart-sd-vertical) design I did for the Commodore 64. Uses a full size SD card for ease of handling and plugs in directly to the back of an Apple IIc/c+/gs.  There is a lightpipe for the activity LED and the narrow case design allows plenty of clearance for the bulkiest composite video connectors I could find in my collection.
+This one is a bit more of an advanced build and is based off my [Tapecart SD](https://github.com/djtersteegc/tapecart-sd-vertical) design I did for the Commodore 64. Uses a full size SD card for ease of handling and plugs in directly to the back of an Apple IIc/c+/gs.  There is a lightpipe for the activity LED and the narrow case design allows plenty of clearance for the bulkiest composite video connectors I could find in my collection.
 
 ![smd-iic-back](docs/smd-iic-back.jpg)
 
@@ -32,7 +32,7 @@ If I have extra PCB's, they will be listed on Tindie.
 
 https://www.tindie.com/products/tersteeg/smartportsd-apple-ii-pcb/
 
-Otherwise you can download the gerbers and use your favorite fab (JLCPCB, PCBWay, etc.) to make your own batch.
+Otherwise, you can download the gerbers and use your favorite fab (JLCPCB, PCBWay, etc.) to make your own batch.
 
 # Acknowledgements
 

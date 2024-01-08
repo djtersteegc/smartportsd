@@ -4,19 +4,19 @@
 
 # BOM
 
-All components can be sourced from the usual low cost China based vendors for a total build cost of around $10. An interactive BOM and parts placement diagram is available.
+All components can be sourced from the usual low-cost China based vendors for a total build cost of around $10. An interactive BOM and parts placement diagram is available.
 
 [Interactive Bill of Materials (BOM)](https://djtersteegc.github.io/smartportsd/ibom-nano-shield-v1.0.html)
 
 ### Arduino Nano v3.0
 
-I've have good luck with the ~$2 Chinese clones, but I would suggest flashing it first before soldering to the board.  Sometimes you do get a bad unit, or a unit that hasn't been flashed with the boot loader and requires you flash it yourself via the ICSP headers.
+I've had good luck with the ~$2 Chinese clones, but I would suggest flashing it first before soldering to the board.  Sometimes you do get a bad unit, or a unit that hasn't been flashed with the boot loader and requires you flash it yourself via the ICSP headers.
 
 Make sure it's a 16Mhz ATMEGA328P board running at 5V.
 
 ### Micro SD Card Connector
 
-This is the common push-push [Micro SD module](https://www.aliexpress.com/item/1873549637.html) with level shifters.  Sometimes it may say "Catalex" (maybe the original designer?) on the back of the PCB.  You will need to remove the pre-soldered right angle header they all seem to come with so you can mount it upside down on the shield board.
+This is the common push-push [Micro SD module](https://www.aliexpress.com/item/1873549637.html) with level shifters.  Sometimes it may say "Catalex" (maybe the original designer?) on the back of the PCB.  You will need to remove the pre-soldered right-angle header they all seem to come with so you can mount it upside down on the shield board.
 
 ![image-20210305180028998](E:/Vintage Computers/Apple II/smartportsd/docs/micro-sd-front.png)
 
@@ -44,7 +44,7 @@ STL's and the [DesignSpark Mechanical](https://www.rs-online.com/designspark/mec
 
 # Assembly
 
-If you plan on casing the PCB, print the case out first before the install the LED's you you can space them properly.  I use about 2.4mm of reveal with standard 5mm LED's so they are just poking above the surface of the case face.
+If you plan on casing the PCB, print the case out first before the install the LED's you can space them properly.  I use about 2.4mm of reveal with standard 5mm LED's so they are just poking above the surface of the case face.
 
 # Firmware Flashing
 

@@ -6,7 +6,7 @@
 
 # BOM
 
-There's an interactive BOM [here](https://djtersteegc.github.io/smartportsd/ibom-smd-v1.1.html), and CSV version with footprint info [here](https://djtersteegc.github.io/smartportsd/bom-smd-v1.1.csv). The interactive one is super useful when placing the SMD comonents.
+There's an interactive BOM [here](https://djtersteegc.github.io/smartportsd/ibom-smd-v1.1.html), and CSV version with footprint info [here](https://djtersteegc.github.io/smartportsd/bom-smd-v1.1.csv). The interactive one is super useful when placing the SMD components.
 
 C5 is an optional bulk capacitor for the 5V power rail near the MCU.  In my experience building these it is not needed.
 
@@ -28,19 +28,19 @@ The pins for the DB19 connector can be purchased from this seller on AliExpress,
 
 # Case
 
-The case was created in DesignSpark and available in two different versions.  One with a finger pull handle for easy removal, and one without, but with grip ridges on the sides to aid in removal.  I find the Chinese Jamma/805 connectors from AliExpress to be extra tight on my Commodore's edge connectors, so the handle version is my preferred one.
+The case was created in DesignSpark and the design file is available if you would like to modify it further.
 
 ![smd-designspark](../docs/smd-designspark.png)
 
-There is a single light pipes that should be printed in transparent material, or you can just leave it off completely. The case is designed to be printed at 0.2mm layer heights and assembled with two M2.5x14mm screws through the connector body and two M2.5 nuts pushed into either the handle or lid.
+There is a single light pipe that should be printed in transparent material, or you can just leave it off completely. The case is designed to be printed at 0.2mm layer heights and assembled with two M2.5x14mm screws through the connector body and two M2.5 nuts pushed into either the handle or lid.
 
 # Assembly
 
-Assemble all the SMD components.  I use solder paste hand applied with pnematic dispenser and then finish on a hot plate.  But you can also hand solder, use hot air, or even order a stencil for paste application and use a proper reflow oven. I use a red LED for the activity indicator. Make sure to observe polarity with the green stripe on the LED to the right matching the white stripe on the PCB silkscreen.
+Assemble all the SMD components.  I use solder paste hand applied with pneumaticdispenser and then finish on a hot plate.  But you can also hand solder, use hot air, or even order a stencil for paste application and use a proper reflow oven. I use a red LED for the activity indicator. Make sure to observe polarity with the green stripe on the LED to the right matching the white stripe on the PCB silkscreen.
 
 Do NOT install the 2x3 ICSP pin header at J2.  I would recommend flashing the firmware at this point to do basic checks since it's easier to do board rework before you install the DB19 pins.
 
-To install the connector, first take your print DB19 shell and use a 1.0mm and 2.0mm drill bit to propertly size the holes.  I use a cut down DB25 connector to hold the pins straight while soldering, it also makes a nice way to hold everything in a vise while you solder.
+To install the connector, first take your print DB19 shell and use a 1.0mm and 2.0mm drill bit to properly size the holes.  I use a cut down DB25 connector to hold the pins straight while soldering, it also makes a nice way to hold everything in a vise while you solder.
 
 ![smd-db25](../docs/smd-db25.jpg)
 
@@ -82,7 +82,7 @@ Plug into your Apple II and enjoy!
 
 If you are in the US, PCB's are available from my Tindie store, https://www.tindie.com/products/tersteeg/smartportsd-apple-ii-pcb/
 
-Otherwise you can grab the [gerbers](gerbers) and order from your favorite PCB fab.
+Otherwise, you can grab the [gerbers](gerbers) and order from your favorite PCB fab.
 
 ![smd-pcb-v1.1](../docs/smd-pcb-v1.1.jpg)
 
