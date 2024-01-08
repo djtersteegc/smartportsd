@@ -1,0 +1,1 @@
+avrdude -c usbasp -p m328p -u -U flash:w:SmartportSD-1.15.ino.with_bootloader.standard.hex
