@@ -56,19 +56,21 @@ I have a fork at https://gitlab.com/tersteeg/smartportsd that adds support for t
 
 You have two options here.  If you are lucky enough to have a DB19 to DB25 DuoDisk Drive cable, you can simply solder on a female DB25 jack and you're good to go.
 
-Or you can wire up your own cable using the 2.54mm 9p header J2.  The pinout is as follows:
+The IDC-20 pin mapping can be used with the various DB19 to IDC-20 adapter available, like the one from the Fujinet project, https://github.com/FujiNetWIFI/fujinet-hardware/tree/master/AppleII/DB-19M-Adapter-Male-Rev1
 
-| SmartPort | DB19 pin | J2 pin |
-| --------- | -------- | ------ |
-| RDDATA    | 18       | 1      |
-| PH0       | 11       | 2      |
-| PH1       | 12       | 3      |
-| PH2       | 13       | 4      |
-| PH3       | 14       | 5      |
-| WRDATA    | 19       | 6      |
-| +5V       | 6        | 7      |
-| GND       | 1        | 8      |
-| WRPROT    | 10       | 9      |
+Or you can wire up your own cable using the 2.54mm 9p header J2. The pinout is as follows:
+
+| SmartPort | DB19 pin | IDC-20 pin | J2 pin | DB25 pin |
+| --------- | -------- | ---------- | ------ | -------- |
+| RDDATA    | 18       | 16         | 1      | 3        |
+| PH0       | 11       | 2          | 2      | 15       |
+| PH1       | 12       | 4          | 3      | 16       |
+| PH2       | 13       | 6          | 4      | 17       |
+| PH3       | 14       | 8          | 5      | 18       |
+| WRDATA    | 19       | 18         | 6      | 6        |
+| +5V       | 6        | 11         | 7      | 7        |
+| GND       | 1        | 1          | 8      | 2        |
+| WRPROT    | 10       | 20         | 9      | 12       |
 
 # Usage
 
